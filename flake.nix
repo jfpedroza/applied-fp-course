@@ -37,6 +37,7 @@
                 nixpkgs.cabal-install
                 nixpkgs.ghcid
                 nixpkgs.sqlite
+                nixpkgs.haskell-language-server
               ];
             });
       });
