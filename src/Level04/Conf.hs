@@ -6,7 +6,7 @@ module Level04.Conf
 
 -- We'll do more with this later, but we can easily stub it to keep things
 -- rolling and come back to refactor it later.
-data Conf = Conf
+newtype Conf = Conf
   { dbFilePath :: FilePath
   }
 
